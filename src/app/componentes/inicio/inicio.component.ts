@@ -55,4 +55,16 @@ enviarDatos(){
     dato_desde_servicio = this.pruebaSrv.Invocable_3();
     console.log(dato_desde_servicio);
   }
+  Invocable_Sumar(){
+    let dato_desde_servicio;
+    dato_desde_servicio = this.pruebaSrv.Sumar(3,4);
+    console.log(dato_desde_servicio);
+    if(dato_desde_servicio  <=4){
+      console.log(dato_desde_servicio);
+      console.log("Reprobado");
+    }else{
+      console.log(dato_desde_servicio);
+      console.log("Aprobado")
+    }
+  }
 }

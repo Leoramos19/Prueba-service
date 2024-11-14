@@ -21,4 +21,8 @@ export class PruebaService {
     let dato = "Funcion 3 invocada";
     return dato;
   }
+  Sumar(numero1:any, numero2:any){
+    let dato;
+    return (numero1 + numero2)/2;
+  }
 }
